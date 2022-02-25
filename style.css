@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+.nav{ /* nav bar */
+    height: 60px;
+    width: 900px;
+    background-color: gray;
+    display: inline-flex; 
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.nav-title{ /* title */
+font-family: 'Roboto', sans-serif;
+padding-left: 5px;
+color: white;
+}
+
+.nav-links{ /*only moves nav links */
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.page{ /* Home */
+color: white;
+margin: 10px;
+text-decoration: none;
+}
+
+.active{ /* My Profile */
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.find{ /* Find Connections */
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.btn{ /* inside the button */
+height: 20px;
+width: 70px;
+background-color: #17a2b8;
+color: white;
+border-radius: 10% black;
+}
